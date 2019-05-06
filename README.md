@@ -157,4 +157,4 @@ Other Roles used:
 ```ansible-playbook playbook.yml --tags="init" --ask-sudo-pass```
 2. Point domain to instance.
 3. Edit vars.yml to add new domain
-4.
+4. Run ```ansible-playbook playbook.yml --tags="nginx,web,sites" --ask-sudo-pass```
