@@ -1,4 +1,7 @@
 ---
+- name: Install the Python MySQLB module
+  pip: name=MySQL-python
+
 ## installs and sets up Mariadb
 - name: Install MariaDB package
   apt: name={{item}} state=latest
