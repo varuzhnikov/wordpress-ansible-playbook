@@ -150,3 +150,8 @@ Other Roles used:
 - geerlingguy.nodejs: https://github.com/geerlingguy/ansible-role-nodejs
 - geerlingguy.composer: https://github.com/geerlingguy/ansible-role-composer
 - geerlingguy.redis: https://github.com/geerlingguy/ansible-role-redis
+
+
+## Usage for our case
+1. Initial setup
+```ansible-playbook playbook.yml --tags="init" --ask-sudo-pass```
