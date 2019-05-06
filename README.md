@@ -35,9 +35,11 @@ The following roles are in this playbook.
 
 To get started, you just need to do the following:
 
-### 1. Create a server that has a sudo user already set up.
+### 1. Create a server that has a sudo user already set up and install python-minimal.
 
 Make sure that whatever machine you are connecting from as the ansible host has its public key setup on any hosts you are deploying to.
+
+```sudo apt install python-minimal```
 
 It goes without saying that this is an ansible playbook so its assumed there's already some familiarity with how that works.
 
