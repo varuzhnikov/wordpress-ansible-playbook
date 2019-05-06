@@ -156,4 +156,5 @@ Other Roles used:
 1. Initial setup
 ```ansible-playbook playbook.yml --tags="init" --ask-sudo-pass```
 2. Point domain to instance.
-
+3. Edit vars.yml to add new domain
+4.
