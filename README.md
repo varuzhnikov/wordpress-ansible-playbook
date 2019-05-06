@@ -39,6 +39,7 @@ To get started, you just need to do the following:
 
 Make sure that whatever machine you are connecting from as the ansible host has its public key setup on any hosts you are deploying to.
 
+In order to install python-minimal enter the following command:
 ```sudo apt install python-minimal```
 
 It goes without saying that this is an ansible playbook so its assumed there's already some familiarity with how that works.
